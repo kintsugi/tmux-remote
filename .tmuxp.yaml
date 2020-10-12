@@ -1,0 +1,11 @@
+session_name: tmux-remote
+start_directory: ./
+environment:
+  PROJECT_ROOT: ~/proj/tmux-remote
+windows:
+- window_name: editor
+  panes:
+  - nvim
+- window_name: terminal
+  panes:
+  - pane
